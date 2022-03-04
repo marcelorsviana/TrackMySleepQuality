@@ -52,3 +52,20 @@ distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
 WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
 License for the specific language governing permissions and limitations under
 the License.
+
+------------------------------------------------------------
+
+### CODELAB: Android Kotlin Fundamentals: Create a Room Database - https://developer.android.com/codelabs/kotlin-android-training-room-database#0
+
+#### **What I learned:**</br>
+
+- How to create and interact with a Room database to persist data.
+- How to create a data class that defines a table in the database.
+- How to use a data access object (DAO) to map Kotlin functions to SQL queries.
+- How to test whether your database is working.
+
+
+#### **What I did:**</br>
+
+- Create a Room database with an interface for nightly sleep data.
+- Test the database using the provided tests.
