@@ -25,12 +25,10 @@ import androidx.room.Update
 @Dao
 interface SleepDatabaseDao {
     @Insert
-    suspend fun insert(night: SleepNight) {
-    }
+    suspend fun insert(night: SleepNight)
 
     @Update
-    suspend fun update(night: SleepNight) {
-    }
+    suspend fun update(night: SleepNight)
 
     // Notice the :key. You use the colon notation in the query to reference arguments in the function.
     @Query("SELECT * FROM daily_sleep_quality_table WHERE nightId = :key")
