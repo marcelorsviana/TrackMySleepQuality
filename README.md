@@ -69,3 +69,21 @@ the License.
 
 - Create a Room database with an interface for nightly sleep data.
 - Test the database using the provided tests.
+
+
+------------------------------------------------------------
+
+### CODELAB: Android Kotlin Fundamentals: 6.2 Coroutines and Room - https://developer.android.com/codelabs/kotlin-android-training-coroutines-and-room#0
+
+#### **What I learned:**</br>
+
+- How threads work in Android.
+- How to use Kotlin coroutines to move database operations away from the main thread.
+- How to display formatted data in a TextView.
+
+#### **What I did:**</br>
+
+- Extend the TrackMySleepQuality app to collect, store, and display data in and from the database.
+- Use coroutines to run long-running database operations in the background.
+- Use LiveData to trigger navigation and the display of a snackbar.
+- Use LiveData to enable and disable buttons.
